@@ -1,0 +1,24 @@
+{
+  "name": "cssreset",
+  "version": "1.0.0",
+  "description": "Yet another CSS reset stylesheet.",
+  "main": "reset.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chharvey/cssreset.git"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "browser"
+  ],
+  "author": "Chris Harvey <chrisharvey2pi@gmail.com> (https://chharvey.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chharvey/cssreset/issues"
+  },
+  "homepage": "https://chharvey.github.io/cssreset/"
+}
