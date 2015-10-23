@@ -1,5 +1,5 @@
 {
-  "name": "cssreset",
+  "name": "resetcss",
   "version": "1.0.0",
   "description": "Yet another CSS reset stylesheet.",
   "main": "reset.css",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chharvey/cssreset.git"
+    "url": "git+https://github.com/chharvey/resetcss.git"
   },
   "keywords": [
     "css",
@@ -21,9 +21,9 @@
   "author": "Chris Harvey <chrisharvey2pi@gmail.com> (https://chharvey.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chharvey/cssreset/issues"
+    "url": "https://github.com/chharvey/resetcss/issues"
   },
-  "homepage": "https://chharvey.github.io/cssreset/",
+  "homepage": "https://chharvey.github.io/resetcss/",
   "devDependencies": {
     "clean-css": "^3.4.6",
     "less": "^2.5.3"
