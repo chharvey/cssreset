@@ -4,7 +4,10 @@
   "description": "Yet another CSS reset stylesheet.",
   "main": "reset.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lessc": "lessc reset.less reset.css",
+    "minify": "cleancss reset.css -o reset.min.css",
+    "build": "npm run lessc  ;  npm run minify"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/chharvey/cssreset/issues"
   },
-  "homepage": "https://chharvey.github.io/cssreset/"
+  "homepage": "https://chharvey.github.io/cssreset/",
+  "devDependencies": {
+    "clean-css": "^3.4.6",
+    "less": "^2.5.3"
+  }
 }
