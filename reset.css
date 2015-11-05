@@ -1,11 +1,14 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\
-    reset.less
-    Version: 1.0.1
+    resetcss
+    Version: 1.0.2
     Licence: MIT
     Repo   : https://github.com/chharvey/resetcss.git
     Home   : https://chharvey.github.io/resetcss/
     Author : https://chharvey.github.io/
 \*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*================================*\
+    reset.less
+\*================================*/
 body {
   text-align: left;
   background: #fff;
