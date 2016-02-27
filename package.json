@@ -1,6 +1,6 @@
 {
   "name": "resetcss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yet another CSS reset stylesheet.",
   "main": "reset.css",
   "scripts": {
