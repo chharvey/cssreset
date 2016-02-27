@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/chharvey/resetcss/issues"
   },
-  "homepage": "https://chharvey.github.io/resetcss/",
+  "homepage": "https://github.com/chharvey/resetcss/blob/gh-pages/README.md",
   "devDependencies": {
     "clean-css": "^3.4.6",
     "less": "^2.5.3"
