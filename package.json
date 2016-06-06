@@ -5,9 +5,10 @@
   "main": "reset.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lessc": "lessc reset.less reset.css",
+    "lessc:all": "lessc reset.less reset.css",
     "minify": "cleancss reset.css -o reset.min.css",
-    "build": "npm run lessc  ;  npm run minify"
+    "unbuild": "rm reset.css reset.min.css",
+    "build": "npm run lessc:all  &&  npm run minify"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,7 @@
   },
   "homepage": "https://github.com/chharvey/resetcss#readme",
   "devDependencies": {
-    "clean-css": "^3.4.6",
-    "less": "^2.5.3"
+    "clean-css": "^3.4.17",
+    "less": "^2.7.1"
   }
 }
